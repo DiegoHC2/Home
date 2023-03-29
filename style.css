@@ -188,7 +188,7 @@ a:hover {
     margin-top: 25px;
     -webkit-box-shadow: 5px 5px 39px -13px #5CCFFF; 
     box-shadow: 5px 5px 39px -13px #5CCFFF;
-    
+    transition: 0.4s;
     
     
 }
@@ -196,8 +196,8 @@ a:hover {
     transition: 0.4s;
     -webkit-box-shadow: 5px 5px 39px -13px #5CCFFF; 
     box-shadow: 5px 5px 39px -13px #5CCFFF;
-    width: 350px;
-    height: 650px;
+    width: 305px;
+    height: 560px;
 }
 
 #boxTitle1 {
@@ -218,7 +218,7 @@ a:hover {
     width: 95%;
     height: 25%;
     display: block;
-    align-items: ;
+    align-items:   center;
     margin-top: 5%;
     border-radius: 5px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
@@ -256,7 +256,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    font-weight: ;
+    font-weight: 200;
     border: 1px solid #ffffff;
     border-radius: 20px;
     margin-top: 35px;
@@ -264,13 +264,13 @@ a:hover {
     margin-right: auto;
     cursor: pointer;
     text-decoration: none;
-    
+    transition: 0.3s;
 }
 
 #buttonBox1:hover {
     background-color: #ffffff;
     color:#000000;
-    transition: background-color 0.7s;
+    transition: 0.7s;
 }
 
 

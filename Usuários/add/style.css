@@ -64,6 +64,10 @@ body {
 #adicionar {
     background-color:  #172a44;
 }
+a{
+    text-decoration: none;
+    color: rgb(133, 124, 124);
+}
 
 /*  /\/\/\ NAV e BACKGROUND */
 
