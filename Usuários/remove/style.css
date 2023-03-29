@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Bebas;
+    src: url('../Sistema\ Login/Login/BebasNeue-Regular.ttf');
+}
+body {
+    height: 100vh;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 0px;
+    background: rgb(217,228,245);
+    background: linear-gradient(90deg, rgba(217,228,245,1) 0%, rgba(230,237,249,1) 40%, rgba(255,255,255,1) 100%);
+}
+
+#navBar {
+    width: 30vh;
+    height: 100%;
+    background-color: #09121f;
+    
+}
+#logo-Bar {
+    margin-top: 0px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1f1;
+    background-color: blue;
+}
+
+#menu {
+    color: rgb(133, 124, 124);
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+    margin-top: 40%;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    
+}
+.menuInt{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-weight: 100;
+    
+}
+.menuInt:hover {
+    background-color:  #172a44;
+}
+#remover {
+        background-color:  #172a44;
+    
+}
+.background{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+       
+}
+.container {
+    background-color: #fff;
+    width: 100%;
+    height: 80%;
+    background: rgb(217,228,245);
+    background: linear-gradient(90deg, rgba(217,228,245,1) 0%, rgba(230,237,249,1) 40%, rgba(255,255,255,1) 100%);
+}

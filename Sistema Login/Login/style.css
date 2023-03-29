@@ -1,0 +1,149 @@
+html {
+    height: 100vh;
+}
+
+
+
+body {
+    height: 100vh;
+    background-color: #1b373d;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../Login/BebasNeue-Regular.ttf')
+
+}
+
+form {
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif;
+    font-size: 1.2em;
+    
+    
+}
+input{
+    color: #fff;
+    font-size: 20px;
+}
+input:focus{
+    box-shadow: 0 0 0 0;
+    
+    outline: 0;
+}
+
+
+.BoxLogin{
+    display: block;
+    padding: 40px 0px 1px;
+    
+    width: auto;
+    opacity: 1;
+    
+}
+::placeholder{
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    
+    
+}
+input{
+    background: none;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+#LoginControl {
+    display: grid;
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#managerUser{
+    color: #266986;
+    border: 2px solid  #285366;
+    cursor: pointer;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    text-transform: uppercase;
+    text-shadow: -1px 0px 2px #13272B;
+    
+}
+#managerUser:hover{
+    background-color: #285366;
+    transition: 0.5s;
+    color: #ffffff;
+    text-shadow: none;
+    
+}
+#spaceControl{
+    display:block;
+    
+}
+#textTitle{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Times, serif;
+    font-size: x-large;
+    text-shadow: 1px 1px black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#text {
+    color: #fff;
+    text-shadow: 1px 1px black;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+
+    
+    
+}
+
+
+.BtSt{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#ButtonBox {
+    background-color: #285366;
+    color: #fff;
+    margin-top:  20px;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 200;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+
+}
+#ButtonBox:hover {
+    background-color: #204555;
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+

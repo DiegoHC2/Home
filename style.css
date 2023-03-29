@@ -1,0 +1,292 @@
+
+@font-face {
+    font-family: 'bits';
+    src: url('../Currículo/8-BIT\ WONDER.TTF') format('truetype');
+}
+body {
+    height: 350vh;
+    background-image: url("./istockphoto-1256173183-612x612.jpg");
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a{
+    
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+    
+}
+img{
+    height: 55px;
+    width: 55px;
+}
+#Logo {
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+
+    
+}
+
+nav {
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    
+    
+}
+
+nav ul{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 20px;
+    
+}
+
+#NavHome {
+    color: #000000;
+}
+
+nav ul a{
+    color:  #030303;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0s;
+
+    
+}
+
+
+a:hover {
+    /*transition: 0.3s;
+    background-color: rgba(148, 136, 136, 0.);
+    border-radius: 25px 0px 0px 25px;*/
+    
+    
+    color: rgb(65, 63, 63);   
+}
+
+.byteBackground{
+    background-image: url('./wp4672935.jpg');
+    width: 99vw;
+    height: 150vh;
+    
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    
+}
+#boxSkills{
+   background-color: white;
+    display:flex;
+    box-shadow: inset 0px 43px 11px -42px rgba(0,0,0,0.1);
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#boxControl {
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    -webkit-box-shadow: 0px 0px 26px -3px rgba(120,120,120,1);
+    -moz-box-shadow: 0px 0px 26px -3px rgba(120,120,120,1);
+    box-shadow: 0px 0px 26px -3px rgba(120,120,120,1);
+}
+#boxControl h1 {
+    background-color: #000000;
+    color: rgb(209,201,201);
+    color: radial-gradient(circle, rgba(209,201,201,1) 0%, rgba(255,251,251,1) 100%);
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight:bold;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#imgControl {
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 80%;
+    display:block;
+    margin-top: 7%;
+    margin-left: 10%;
+    
+}
+
+#imgSkills   {
+    
+    width: 42%;
+    height: 43%;
+}
+#aboutMe{
+    color: rgb(209,201,201);
+    color: radial-gradient(circle, rgba(209,201,201,1) 0%, 
+    rgba(255,251,251,1) 100%);
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    text-transform: uppercase;
+    width: 40%;
+    margin-left: 58%;
+    border-radius: 2px;
+    border-bottom: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+
+
+
+}
+
+#textAbout{
+    color: white;
+    justify-content: center;
+    display: flex;
+    line-height: 500%;
+    text-align: center;
+    
+    
+}
+
+#textProject{
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: rgb(209,201,201);
+    color: radial-gradient(circle, rgba(209,201,201,1) 0%, 
+    rgba(255,251,251,1) 100%);
+    width: 40%;
+    margin-left: 2%;
+    border-radius: 2px;
+    border-bottom: 2px solid #ffffff;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+}
+
+.boxContents {
+    background-color: #fefffe;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    
+
+}
+#box1{
+    background-color: #000000;
+    width: 300px;
+    height: 550px;
+    margin-left: 50px;
+    border-radius: 15px;
+    margin-top: 25px;
+    -webkit-box-shadow: 5px 5px 39px -13px #5CCFFF; 
+    box-shadow: 5px 5px 39px -13px #5CCFFF;
+    
+    
+    
+}
+#box1:hover {
+    transition: 0.4s;
+    -webkit-box-shadow: 5px 5px 39px -13px #5CCFFF; 
+    box-shadow: 5px 5px 39px -13px #5CCFFF;
+    width: 350px;
+    height: 650px;
+}
+
+#boxTitle1 {
+    background-color: #070606;
+    color: #fefffe;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+    border-radius: 15px;
+    
+    
+}
+#boxDescription1 {
+    background-color: #ffffff;
+    width: 95%;
+    height: 25%;
+    display: block;
+    align-items: ;
+    margin-top: 5%;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#textBox1{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+#imageBox1{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    margin-left: 5%;
+    border-radius: 30px;
+    
+    
+}
+#boxDescription1{
+    color: #ffffff;
+    margin-left: 2%;
+    
+}
+#buttonBox1{
+    color: #ffffff;
+    display: flex;
+    height: 10%;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    font-weight: ;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+#buttonBox1:hover {
+    background-color: #ffffff;
+    color:#000000;
+    transition: background-color 0.7s;
+}
+
+
+#menu{
+    
+    display: flex;
+    font-weight: 1000;
+    
+    
+}
+#boxDesign  {
+    display: flex;
+    
+}
+
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <script src="./scripts.js"></script>
+    <title>Currículo</title>
+    
+</head>
+<body>
+    <div id="navBar">
+        
+            <div id="logo-Bar">ADMIN</div>
+                <div id="menu">
+                <div class="menuInt" id="adicionar">Adicionar</div>
+                <div class="menuInt" id="remover">Remover</div>
+        </div>
+</div>
+
+    <div class="background">
+       <div class="container">
+            <div id="header">Cadastro de Usuários</div>
+            <div id="functions">
+                <div id="cpfControl">
+                    <label for="Cpf">CPF</label> 
+                        <input type="text" id="cpfBox"> <br></div>
+                <div id="emailControl">
+                    <label for="Email">Email</label>
+                        <input type="text" id="emailBox"><br></div>
+                <div id="telefoneControl">
+                    <label for="Telefone">Telefone</label>
+                       <input type="tel" onkeyup="handlePhone(event)" maxlength="15" id="telefoneBox"><br></div>
+                
+            </div>
+            <div id="lowerBox">
+                <input type="button" id="buttonBox" value="CADASTRAR" onclick="Cadastrar()">
+            </div>
+       </div>
+        
+
+     
+    </div>
+</div>
+         
+</body>
+</html>
