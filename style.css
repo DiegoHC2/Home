@@ -1,7 +1,9 @@
-
 @font-face {
     font-family: 'bits';
     src: url('../Currículo/8-BIT\ WONDER.TTF') format('truetype');
+}
+html {
+    scroll-behavior: smooth;
 }
 body {
     height: 300vh;
@@ -15,10 +17,11 @@ a{
     
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
-    
-    
+
+}
+a:hover {
+
+    color: rgb(65, 63, 63);   
 }
 img{
     height: 55px;
@@ -30,16 +33,29 @@ img{
     cursor: pointer;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    transition: 0.3s;
     
+}
+#Logo.sticky {
+    display: none;
 }
 
 nav {
     background-color:rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
-    padding-right: 40px;
+    padding-right: 40px; 
+    transition: 1s;
+    padding: 40px 10px;
+}
+nav.ativo {
+    border: 1px solid rgb(221, 218, 218);
+    position: fixed;
     
-    
+    width: 100%;
+    padding: 5px 10px;
+    z-index: 1000;
+    margin-left: 50%;
 }
 
 nav ul{
@@ -62,17 +78,6 @@ nav ul a{
 
     
 }
-
-
-a:hover {
-    /*transition: 0.3s;
-    background-color: rgba(148, 136, 136, 0.);
-    border-radius: 25px 0px 0px 25px;*/
-    
-    
-    color: rgb(65, 63, 63);   
-}
-
 .byteBackground{
     background-image: url('./wp4672935.jpg');
     width: 99vw;
@@ -86,7 +91,7 @@ a:hover {
 #boxSkills{
    background-color: white;
     display:flex;
-    box-shadow: inset 0px 43px 11px -42px rgba(0,0,0,0.1);
+    box-shadow: inset 0px 43px 11px -42px rgba(197, 194, 194, 0.1);
     height: 700px;
     justify-content: center;
     align-items: center;
@@ -181,14 +186,13 @@ a:hover {
 
 }
 #box1{
-    background-color: #000000;
+    background-color: black;
     width: 350px;
     height: 550px;
     margin-left: 50px;
     border-radius: 15px;
     margin-top: 25px;
-    -webkit-box-shadow: 5px 5px 39px -13px #5CCFFF; 
-    box-shadow: 5px 5px 39px -13px #5CCFFF;
+    
     transition: 0.4s;
     overflow: hidden;
     
@@ -307,7 +311,7 @@ ul {
     justify-content: center;
     width: 100%;
     height: 200px;
-    color: rgb(150, 146, 146);
+    color: rgb(184, 179, 179);
     
     
 }
